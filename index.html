@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>图书借阅管理系统</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <i class="ri-book-3-line"></i> 图书借阅系统
+            </a>
+            <div class="nav__menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link" title="主页">
+                        <i class="ri-home-line"></i>
+                        <span>主页</span>
+                     </a>
+                  </li>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#new" class="nav__link" title="书库">
+                        <i class="ri-bookmark-line"></i>
+                        <span>书库</span>
+                     </a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#author" class="nav__link" title="平台值班人员">
+                        <i class="ri-inbox-unarchive-line"></i>
+                        <span>平台负责人</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="nav__actions">
+
+               <!-- Theme button -->
+               <i class="ri-moon-line change-theme" id="theme-button" title="切换主题"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">
+                     Browse & <br>
+                     Select Books
+                  </h1>
+
+                  <p class="home__description">
+                     从你最喜欢的作家那里找到最好的书籍，浏览数百本各种可能类别的书，享受阅读的乐趣。
+                  </p>
+
+                  <a href="http://book.gitapp.cn/" class="button">借阅由此开始</a>
+               </div>
+
+               <div class="home__images">
+                  <div class="home__swiper swiper">
+                     <div class="swiper-wrapper">
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/home-book-1.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/home-book-2.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/home-book-3.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/home-book-4.png" alt="image" class="home__img">
+                        </article>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== NEW BOOKS ====================-->
+         <section class="new section" id="new">
+            <h2 class="section__title">
+               Books
+            </h2>
+
+            <div class="new__container container">
+               <div class="new__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-1.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">活着</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">To Live: A Novel,trans.</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+   
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-2.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">三体</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">The Three-Body Problem</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+   
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-3.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">百年孤独</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">One Hundred Years of Solitude</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+   
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-4.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">房思琪的初恋乐园</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">You Smell Like Love</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+   
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-5.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">白夜行</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">journey under the midnight sun</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+   
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-6.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">小王子</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">The Little Prince</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+   
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-7.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">人类简史</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Sapiens：A brief history of humankind</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+   
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-8.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">平凡的世界</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">The Ordinary World</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="new__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-8.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">平凡的世界</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">The Ordinary World</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+   
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-7.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">人类简史</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Sapiens：A brief history of humankind</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+   
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-6.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">小王子</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">The Little Prince</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+   
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-5.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">白夜行</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">journey under the midnight sun</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+   
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-4.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">房思琪的初恋乐园</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">You Smell Like Love</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+   
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-3.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">百年孤独</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">One Hundred Years of Solitude</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+   
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-2.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">三体</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">The Three-Body Problem</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+   
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/book-1.png" alt="image" class="new__img">
+                     
+                        <div>
+                           <h2 class="new__title">活着</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">To Live: A Novel,trans.</span>
+                           </div>
+   
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== author ====================-->
+         <section class="author section" id="author">
+            <h2 class="section__title">
+               Admin
+            </h2>
+
+            <div class="author__container container">
+               <div class="author__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <article class="author__card swiper-slide">
+                        <img src="assets/img/testimonia-perfil-1.jpg" alt="image" class="author__img">
+                     
+                        <h2 class="author__title">王宇</h2>
+                        <p class="author__description">
+                           Head of Equity Services, Department of 
+                           Electrical and Mechanical Services.
+                        </p>
+                     </article>
+
+                     <article class="author__card swiper-slide">
+                        <img src="assets/img/testimonia-perfil-2.jpg" alt="image" class="author__img">
+                     
+                        <h2 class="author__title">段载信</h2>
+                        <p class="author__description">
+                           Chairperson of the Department of Equity Services, 
+                           Department of Electrical and Mechanical Services
+                        </p>
+                     </article>
+
+                     <article class="author__card swiper-slide">
+                        <img src="assets/img/testimonia-perfil-3.jpg" alt="image" class="author__img">
+                     
+                        <h2 class="author__title">彭彬</h2>
+                        <p class="author__description">
+                           Head of Equity Services, Department of 
+                           Electrical and Mechanical Services.
+                        </p>
+                     </article>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div>
+               <a href="http://book.gitapp.cn" class="footer__logo">
+                  <i class="ri-book-3-line"></i> Borrowing
+               </a>
+
+               <p class="footer__description">
+                  The roses in her hand <br><br>
+                  The flavor in mine
+               </p>
+            </div>
+
+            <div class="footer__data grid">
+               <div>
+                  <h3 class="footer__title">关于</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="https://zzxy.gnust.edu.cn/" class="footer__link">机电工程系官网</a>
+                     </li>
+
+                     <li>
+                        <a href="https://www.xiaoyu.ac.cn/comments/" class="footer__link">反馈</a>
+                     </li>
+
+                     <li>
+                        <a href="https://www.xiaoyu.ac.cn/comments/" class="footer__link">提交issue</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">主导部门</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="https://www.xiaoyu.ac.cn" class="footer__link">权益服务部</a>
+                     </li>
+                     <li>
+                        <a href="https://www.xiaoyu.ac.cn" class="footer__link">学习部</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">联系</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <address class="footer__info">
+                           <a href="https://res.abeim.cn/api/qq/?qq=2208939673" class="footer__link">QQ</a>
+                        </address>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+         <span class="footer__copy">
+            &#169; All Rights Reserved By 机电系权益服务部
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
